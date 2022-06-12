@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {margin: 0px; background-color: white;}
+
+#chart { margin:0 auto; width: 1500px; height: 1500px; background-color: white;}
+table.type07 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border: 1px solid #fff;
+    margin: 10px 10px;
+  }
+  table.type07 thead {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    background: #fff;
+  }
+  table.type07 thead th {
+    padding: 7px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+  table.type07 tbody th {
+    width: 65px;
+    padding: 9px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+  }
+  table.type07 td {
+    text-align: center;
+    width: 350px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  img
+  {
+    width: 100px;
+    height: 100%;
+    transition:all .35s;
+  }
+  img:hover
+  {
+    width: 400px;
+    height: 100%;
+    transition:all .35s;
+  }
